@@ -43,3 +43,11 @@ temp/
 # Rclone
 rclone.conf
 .envrc
+
+# Local env files
+.env
+.env.local
+.envrc
+.env.*
+!.env.example
+!.env.*.example
